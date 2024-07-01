@@ -28,6 +28,6 @@ def send_sms(recipient, message):
         print(f"Failed to send SMS: {e}")
 
 # Example usage
-phone_number = "+251914232223"
+phone_number = "+251914+++++"
 message = "Hello, this is a test SMS!"
 send_sms(phone_number, message)
