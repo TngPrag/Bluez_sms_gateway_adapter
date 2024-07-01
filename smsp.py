@@ -90,7 +90,7 @@ def main():
     sock = connect_to_mas(target_mac_address, uuid_mas)
     if sock:
         try:
-            recipient = "+251996877474"  # Replace with the recipient's number
+            recipient = "+2519968+++"  # Replace with the recipient's number
             message = "Hello, this is a test SMS sent via Bluetooth!"
             send_sms(sock, recipient, message)
         except Exception as e:
