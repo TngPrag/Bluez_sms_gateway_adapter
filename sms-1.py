@@ -76,13 +76,13 @@ def send_sms(sock, recipient, message):
         print(f"Error sending SMS: {e}")
 
 # Device and connection details
-device_address = "C4:18:E9:EE:0B:FA"  # Replace with your device's MAC address
+device_address = "C5:18:E9:EE:07:ED"  # Replace with your device's MAC address
 port = 4  # Replace with the actual port
 
 # Connect to the device
 sock = connect_bluetooth_device(device_address, port)
 if sock:
-    recipient = "+251914232223"  # Replace with the recipient's phone number
+    recipient = "+2519+++++++"  # Replace with the recipient's phone number
     message = "Hello, this is a test SMS."
 
     # Send the SMS
